@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+.due-items .mat-form-field-wrapper,
+.due-items .mat-form-field-appearance-fill .mat-form-field-infix,
+.due-items .mat-form-field-infix {
+    padding: 0;
+}
+
+.due-items .mat-form-field-infix {
+    border-top: none;
+    width: 100px;
+}
+
+.due-items .mat-form-field-appearance-legacy .mat-form-field-underline {
+    background: none;
+}
+
+.due-items .mat-form-field-appearance-legacy .mat-form-field-label,
+.due-items .mat-form-field-label-wrapper {
+    top: 0;
+    padding-top: 0;
+}
+
+.due-items .mat-form-field-underline,
+.due-items .mat-select-arrow {
+    display: none;
+}
+
+.mat-tooltip {
+    font-size: 13px;
+}
+
+.mat-input-element:disabled,
+.mat-form-field-type-mat-native-select.mat-form-field-disabled .mat-form-field-infix::after,
+.mat-select-disabled .mat-select-value {
+    color: #656565 !important;
+}
+
+.mat-form-field-disabled.mat-form-field-appearance-outline .mat-form-field-outline {
+    background-color: #efefef !important;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    background-color: #f9f9f9;
+}
+
+.mat-form-field-infix {
+    position: static;
+}
+
+.closeBtn {
+    font-size: 36px;
+    border: none;
+    outline: none;
+    padding: 0;
+    line-height: 1.5;
+    background: none;
+}
+
+.toast-top-center {
+    bottom: 0;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    width: 100%;
+}

@@ -1,0 +1,123 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form {
+    width: 50%;
+}
+
+/* You can add global styles to this file, and also import other style files */
+.due-items .mat-form-field-wrapper,
+.due-items .mat-form-field-appearance-fill .mat-form-field-infix,
+.due-items .mat-form-field-infix {
+    padding: 0;
+}
+
+.due-items .mat-form-field-infix {
+    border-top: none;
+    width: 100px;
+}
+
+.due-items .mat-form-field-appearance-legacy .mat-form-field-underline {
+    background: none;
+}
+
+.due-items .mat-form-field-appearance-legacy .mat-form-field-label,
+.due-items .mat-form-field-label-wrapper {
+    top: 0;
+    padding-top: 0;
+}
+
+.due-items .mat-form-field-underline,
+.due-items .mat-select-arrow {
+    display: none;
+}
+
+.mat-tooltip {
+    font-size: 13px;
+}
+
+.mat-input-element:disabled,
+.mat-form-field-type-mat-native-select.mat-form-field-disabled .mat-form-field-infix::after,
+.mat-select-disabled .mat-select-value {
+    color: #656565 !important;
+}
+
+.mat-form-field-disabled.mat-form-field-appearance-outline .mat-form-field-outline {
+    background-color: #efefef !important;
+}
+
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    background-color: #f9f9f9;
+}
+
+.mat-form-field-infix {
+    position: static;
+}
+
+.k-button .k-grid-add-command {
+    span {
+        margin-right: 5px;
+    }
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+section {
+    display: table;
+}
+
+.example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+}
+
+.example-button-row {
+    display: table-cell;
+    max-width: 600px;
+}
+
+.example-button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+}
+
+.task-sidebar-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #eef0f1;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+
+.mat-card.scrollable-content {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    >.mat-card-title-group {
+        display: block;
+    }
+
+    >.mat-card-content {
+        overflow-y: auto;
+    }
+}

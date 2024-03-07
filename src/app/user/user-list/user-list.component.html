@@ -1,0 +1,29 @@
+<table aria-describedby="table" class="table border-0 data-table mb-0">
+    <thead>
+        <tr style="background-color:cadetblue;">
+            <th hidden>Id</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let item of dataSource">
+            <td hidden>{{item.USER_ID}}</td>
+            <td>{{item.FIRST_NAME}}</td>
+            <td>{{item.LAST_NAME}}</td>
+            <td>{{item.ADDRESS}}</td>
+            <td>{{item.EMAIL}}</td>
+            <td>{{item.PHONE}}</td>
+            <td><button mat-raised-button color="primary" class="btn k-button btn btn-success button-highlight"
+                    (click)="onEdit(item)">Edit</button>&nbsp;
+                <button mat-raised-button color="warn" class="btn k-button btn btn-success button-highlight"
+                    (click)="onDelete(item)">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
