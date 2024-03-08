@@ -25,3 +25,18 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Work Flow
+1)You have to run it using ng serve command.
+
+2)You will get landed on home page of application
+
+3)Go to 'user-upsert' page.
+
+4)Fill the form and submit.
+
+5)User will get added in below grid 
+
+6)Adding first user will replace the default user in the grid
+
+7)Using "Edit" and "Delete" button in action column of grid you can add or delete user.
